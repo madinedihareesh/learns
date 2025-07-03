@@ -4,10 +4,10 @@ export const Header=()=>{
     
     return(
         <>
-        <header>
+        <header className='pt-2 pb-2 mt-1'>
             <h3>SampleHeading</h3>
             <ul>
-               <Link to='/'><li >Home</li></Link>
+               <Link to='/Home'><li >Home</li></Link>
                <Link to='/Products'><li>Products</li></Link>
                <Link to='/About'><li>About</li></Link>
                <Link to='/Cart'><li>Cart</li></Link>

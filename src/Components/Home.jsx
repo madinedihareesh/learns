@@ -1,12 +1,17 @@
+import { Banner } from "./Banner"
+import { Header } from "./Header"
 import { Products } from "./Products"
+
 
 export const Home=()=>{
     
 
     return(
         <>
-         <h1 style={{textAlign:'center'}}>TOP PRODUCTS</h1>
+      
+         <Banner/>
           <Products/>
+         
         </>
     )
 }
